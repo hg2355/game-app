@@ -7,17 +7,18 @@ body {
     padding-left: 30px;
   }
   
-  .board-row:after {
+  .goal-row:after {
     clear: both;
     content: "";
     display: table;
+    width: 100%;
   }
   
   .status {
     margin-bottom: 10px;
   }
   
-  .square {
+  .goal-button {
     background: #fff;
     border: 1px solid #999;
     float: left;
@@ -32,11 +33,11 @@ body {
     width: 34px;
   }
   
-  .square:focus {
+  .goal-button:focus {
     outline: none;
   }
   
-  .kbd-navigation .square:focus {
+  .kbd-navigation .goal-button:focus {
     background: #ddd;
   }
   
